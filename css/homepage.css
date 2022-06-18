@@ -1,0 +1,815 @@
+@import url(//db.onlinewebfonts.com/c/06404ebe997d474c93502b09c64c3aae?family=Myriad+Set+Pro);
+@import url(//db.onlinewebfonts.com/c/1c45e28f8e86cc89876f003b953cc3e9?family=SF+Pro+Text);
+@font-face { font-family: Delicious; src: url('Delicious-Roman.otf'); } 
+@font-face { font-family: Delicious; font-weight: bold; src: url('Delicious-Bold.otf'); }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*navbar*/
+
+nav{
+    background: rgba(0,0,0,0.8);
+    color: #F5F5F7;
+    
+}
+
+ul{
+
+    width:100%;
+    opacity: .8;
+    height: 44px;
+    display: flex;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    align-items: center, center;
+    background-position: center center;
+    position: relative;
+    left: 40%;
+}
+
+li, svg{
+    list-style: none;
+    margin-left: 37px;
+    position: relative;
+    top: 14px;
+}
+
+.apple{
+    width: 15px;
+    position: relative;
+    left: -25em;
+    top: -13px;
+}
+.store{
+    width: 29px;
+    position: relative;
+    left: -403px;
+    top: -7px;
+}
+.mac{
+    width: 23px;
+    position: relative;
+    left: -405px;
+    top: -7px;
+}
+.ipad{
+    width: 35px;
+    position: relative;
+    left: -405px;
+    top: -7px;
+}
+.iphone{
+    width: 35px;
+    position: relative;
+    left: -405px;
+    top: -7px;
+}
+.watch{
+    width: 35px;
+    position: relative;
+    left: -405px;
+    top: -7px;
+}
+.airpods{
+    width: 43px;
+    position: relative;
+    left: -405px;
+    top: -7px;
+}
+.tvhome{
+    width: 60px;
+    position: relative;
+    left: -405px;
+    top: -7px;
+}
+.onlyapple{
+    width: 75px;
+    position: relative;
+    left: -410px;
+    top: -7px;
+}
+.accessories{
+    width: 66px;
+    position: relative;
+    left: -405px;
+    top: -7px;
+}
+
+.support{
+    width: 43px;
+    position: relative;
+    left: -410px;
+    top: -7px;
+}
+.search{
+    width: 16px;
+    position: relative;
+    left: -418px;
+}
+.bag{
+    width: 13px;
+    position: relative;
+    left: -424px;
+    top: -13px;
+}
+
+
+/*Macbookair*/
+
+.main-text h1{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    position: absolute;
+    font-weight: 2000;
+    left: 333px;
+    top: 177px;
+    font-size: 44px;
+}
+
+.sub-text img{
+    position: absolute;
+    left: 358px;
+    top: 242px;
+}
+.sub-text h6{
+    position:absolute;
+    left: 380px;
+    top: 290px;
+    word-spacing: -2px;
+    color: gray;
+    font-weight: 300;
+    font-family: sans-serif;
+    font-size: 19px;
+}
+.read-mores {
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 18px;
+    position: absolute;
+    left: 340px;
+    top: 323px;
+    cursor: pointer;
+    letter-spacing: inherit;
+    width: 100%;
+    height: 100%;
+    font-synthesis: none;
+    color: #0066cc;
+    pointer-events: all;
+}
+.read-mores .learn-more{
+    text-decoration: none;
+}
+.read-mores .view-price{
+    margin-left: 25px;
+    text-decoration-line: none;
+}
+.mac-photo{
+    margin-top: 28px;
+    margin-left: -63px;
+}
+
+/*iPhone 13*/
+
+.main-text2 h1{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    position: absolute;
+    font-weight: 2000;
+    left: 370px;
+    top: 835px;
+    font-size: 45px;
+}
+
+.sub-text2 h4{
+    position: absolute;
+    left: 358px;
+    top: 890px;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.sub-text h6{
+    position:absolute;
+    left: 380px;
+    top: 290px;
+    word-spacing: -2px;
+    color: gray;
+    font-weight: 300;
+    font-family: sans-serif;
+    font-size: 19px;
+}
+.read-mores8 {
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 18px;
+    position: absolute;
+    left: 380px;
+    top: 930px;
+    cursor: pointer;
+    letter-spacing: inherit;
+    width: 100%;
+    height: 100%;
+    font-synthesis: none;
+    color: #0066cc;
+    pointer-events: all;
+}
+.read-mores8 .learn-more2{
+    text-decoration: none;
+}
+.read-mores8 .buy{
+    margin-left: 25px;
+    text-decoration-line: none;
+}
+.iPhone{
+    width: 1060px;
+    height: 1850;
+    margin-top: -56px;
+    margin-left: -60px;
+    padding-top: 20px;
+}
+
+/*AIRPODS*/
+
+.main-text3 h1{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    position: absolute;
+    font-weight: 2000;
+    left: 370px;
+    top: 535px;
+    color: white;
+    font-size: 45px;
+}
+
+.sub-text3 h4{
+    position: relative;
+    color: white;
+    left: 360px;
+    top: 595px;
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.sub-text3 h6{
+    position:relative;
+    left: 380px;
+    top: 290px;
+    word-spacing: -2px;
+    color: gray;
+    font-weight: 300;
+    font-family: sans-serif;
+    font-size: 19px;
+}
+.read-mores3 {
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 18px;
+    position: relative;
+    left: 360px;
+    top: 610px;
+    cursor: pointer;
+    color: white;
+}
+.read-mores3 .learn-more3{
+    text-decoration: none;
+    color: white;
+}
+.read-mores3 .buy3{
+    margin-left: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.comb3{
+    position: absolute;
+    margin-top: 20px;
+}
+
+.airpod{
+    width: 1000px;
+    height: 1850;
+    margin-top: -12px;
+    margin-left: -60px;
+    padding-top: 20px;
+}
+
+/*macbook pro 13*/
+.main-text4 h1{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    position: absolute;
+    font-weight: 2000;
+    left: 130px;
+    top: 2230px;
+    color: white;
+    font-size: 30px;
+}
+
+.sub-text4 h4{
+    position: relative;
+    color: white;
+    left: 360px;
+    top: 595px;
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.sub-text4 h6{
+    position:relative;
+    left: 180px;
+    top: 74px;
+    word-spacing: -2px;
+    color: gray;
+    font-weight: 300;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.learn-more4 {
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 18px;
+    position: relative;
+    left: 360px;
+    top: 604px;
+    cursor: pointer;
+    color: black;
+}
+.read-mores4 .learn-more4{
+    text-decoration: none;
+    color: #0066cc;
+    margin-top: 1740px;
+    position: absolute;
+    left: 120px;
+
+}
+.read-mores4 .view-pricing4{
+    text-decoration: none;
+    color: #0066cc;
+    font-size: 18px;
+    margin-top: 88px;
+    position: absolute;
+    left: 270px;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    
+}
+
+.comb4{
+    margin-top: 50px;
+}
+
+.mac-book-pro-13{
+    width: 452px;
+    height: 1950;
+    margin-top: -82px;
+    margin-left: 10px;
+    padding-top: 20px;
+}
+.mp13{
+    z-index: 3;
+    position: absolute;
+    top: 2260px;
+    left: 170px;
+}
+.macbookpro{
+    margin-top: 28px;
+}
+
+/*iPhone 13 Pro */
+.main-text5 h1{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    position: absolute;
+    z-index: 3;
+    font-weight: 2000;
+    left: 600px;
+    top: 2230px;
+    color: black;
+    font-size: 30px;
+}
+
+.sub-text5 h4{
+    position: relative;
+    color: grey;
+    left: 650px;
+    top: -355px;
+    z-index: 3;
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.learn-more5 {
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 18px;
+    position: relative;
+    left: 860px;
+    top: 604px;
+    cursor: pointer;
+    color: black;
+}
+.read-mores5 .learn-more5{
+    text-decoration: none;
+    color: #0066cc;
+    margin-top: 1700px;
+    position: absolute;
+    left: 610px;
+    z-index: 3;
+
+}
+
+.read-mores5 .buy5{
+    text-decoration: none;
+    color: #0066cc;
+    font-size: 18px;
+    margin-top: -345px;
+    z-index: 3;
+    position: absolute;
+    left: 740px;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    
+}
+
+.comp5 .iphone13pro{
+    margin-left: 470px;
+    padding-top: 20px;
+    position: absolute;
+    z-index: -3;
+    top: 2173px;
+    width: 456px;
+}
+
+/*watch series7*/
+.sub-text6 h4{
+    position: relative;
+    color: grey;
+    left: 125px;
+    top: 30px;
+    z-index: 3;
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.sub-text6 h6{
+    position:relative;
+    left: 180px;
+    top: 94px;
+    z-index: 3;
+    word-spacing: -2px;
+    color: gray;
+    font-weight: 300;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.learn-more6 {
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 18px;
+    position: relative;
+    left: 150px;
+    top: 39px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #0066cc;
+}
+.read-mores5 .learn-more6{
+    text-decoration: none;
+    color: #0066cc;
+    margin-top: 1700px;
+    position: absolute;
+    left: 610px;
+    z-index: 3;
+
+}
+.read-mores5 .buy6{
+    text-decoration: none;
+    color: #0066cc;
+    font-size: 18px;
+    margin-top: -345px;
+    z-index: 3;
+    position: absolute;
+    left: 740px;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    
+}
+
+.iphone13pro{
+    width: 450px;
+    height: 1950;
+    margin-left: 470px;
+    padding-top: 20px;
+    position: absolute;
+    top: 2283px;
+    z-index: 3;
+}
+
+.comp6{
+    margin-top: 36px;
+}
+
+.watch-main{
+    position: absolute;
+    left: 170px;
+    top: 2650px;
+    z-index: 3;
+
+}
+
+.watchseries7{
+    width: 450px;
+    margin-left: 10px;
+    margin-top: -100px;
+}
+
+/*appstore*/
+.sub-text7 h4{
+    position: absolute;
+    color: white;
+    left: 570px;
+    top: 2700px;
+    z-index: 3;
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.sub-text6 h6{
+    position:relative;
+    left: 180px;
+    top: 94px;
+    z-index: 3;
+    word-spacing: -2px;
+    color: gray;
+    font-weight: 300;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.learn-more6 {
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 18px;
+    position: relative;
+    left: 150px;
+    top: 39px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #0066cc;
+}
+.read-mores5 .learn-more6{
+    text-decoration: none;
+    color: #0066cc;
+    margin-top: 1700px;
+    position: absolute;
+    left: 610px;
+    z-index: 3;
+
+}
+.read-mores5 .buy6{
+    text-decoration: none;
+    color: #0066cc;
+    font-size: 18px;
+    margin-top: -345px;
+    z-index: 3;
+    position: absolute;
+    left: 740px;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    
+}
+
+.iphone13pro{
+    width: 450px;
+    height: 1950;
+    margin-left: 470px;
+    padding-top: 20px;
+    position: absolute;
+    top: 2183px;
+}
+
+.comp6{
+    margin-top: 36px;
+}
+
+.watch-main{
+    position: absolute;
+    left: 170px;
+    top: 2650px;
+    z-index: 3;
+
+}
+
+.watchseries7{
+    width: 450px;
+    margin-left: 10px;
+    margin-top: -100px;
+}
+.app-store{
+    position: absolute;
+    left: 650px;
+    top: 2660px;
+    z-index: 3;
+   
+}
+.appstore{
+    margin-left: 473px;
+    width: 453px;
+    position: absolute;
+    top: 2630px;
+}
+
+/*Card*/
+.sub-text8 h4{
+    position: absolute;
+    color: rgb(82, 80, 80);
+    left: 110px;
+    top: 3140px;
+    z-index: 3;
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.sub-text8 h6{
+    position:relative;
+    left: 180px;
+    top: 94px;
+    z-index: 3;
+    word-spacing: -2px;
+    color: gray;
+    font-weight: 300;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.learn-more8 {
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 18px;
+    position: relative;
+    left: 150px;
+    top: 39px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #0066cc;
+}
+.read-mores8 .learn8{
+    text-decoration: none;
+    color: #0066cc;
+    margin-top: 1700px;
+    position: absolute;
+    left: 610px;
+    z-index: 3;
+
+}
+.read-mores8 .buy8{
+    text-decoration: none;
+    color: #0066cc;
+    font-size: 18px;
+    margin-top: -345px;
+    z-index: 3;
+    position: absolute;
+    left: 740px;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    
+}
+
+.iphone13pro{
+    width: 450px;
+    height: 1950;
+    margin-left: 470px;
+    padding-top: 20px;
+    position: absolute;
+    top: 2183px;
+}
+
+.comp6{
+    margin-top: 36px;
+}
+
+.watch-main{
+    position: absolute;
+    left: 170px;
+    top: 2650px;
+    z-index: 3;
+
+}
+
+.watchseries7{
+    width: 450px;
+    margin-left: 10px;
+    margin-top: -100px;
+}
+.card-1{
+    margin-left: 7px;
+    width: 453px;
+    position: absolute;
+    top: 3070px;
+}
+.main-text8 .cardtitle{
+    position: absolute;
+    z-index: 3;
+    top: 3100px;
+    left: 200px;
+}
+
+
+
+/*tv+*/
+
+.sub-text8 h4{
+    position: absolute;
+    color: rgb(82, 80, 80);
+    left: 110px;
+    top: 3140px;
+    z-index: 3;
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.sub-text8 h6{
+    position:relative;
+    left: 180px;
+    top: 94px;
+    z-index: 3;
+    word-spacing: -2px;
+    color: gray;
+    font-weight: 300;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.learn-more8 {
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 18px;
+    position: relative;
+    left: 150px;
+    top: 39px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #0066cc;
+}
+.read-mores8 .learn8{
+    text-decoration: none;
+    color: #0066cc;
+    margin-top: 1700px;
+    position: absolute;
+    left: 610px;
+    z-index: 3;
+
+}
+.read-mores8 .buy8{
+    text-decoration: none;
+    color: #0066cc;
+    font-size: 18px;
+    margin-top: -345px;
+    z-index: 3;
+    position: absolute;
+    left: 740px;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    
+}
+
+.iphone13pro{
+    width: 450px;
+    height: 1950;
+    margin-left: 470px;
+    padding-top: 20px;
+    position: absolute;
+    top: 2183px;
+}
+
+.comp6{
+    margin-top: 36px;
+}
+
+.watch-main{
+    position: absolute;
+    left: 170px;
+    top: 2650px;
+    z-index: 3;
+
+}
+
+.read-mores9 .catch{
+    list-style: none;
+    color: black;
+}
+.tvplus{
+    margin-left: 470px;
+    width: 453px;
+    position: absolute;
+    top: 3070px;
+}
+.main-text9 img{
+    position: relative;
+    z-index: 3;
+    top: 30px;
+    left: 650px;
+    padding-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
